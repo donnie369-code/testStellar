@@ -35,11 +35,28 @@
         <img src="Images/teamwork.jpg"
         alt="Team woring together on a project"
         style="max-width: 100%; height: auto;"> <!--Ensures images scales reponsively-->
-        
-
     </section>
 
-   
+    <hr>
+
+    <!--Contact Section-->
+    <section id="Contact-Section">
+        <h2>Get in touch</h2>
+        <p>
+            Have a project in mind?, Fill out our contact form below and we will get back to you.
+        </p>
+
+        <!--Contact Form-->
+        <form id="Contact-Form" action="/Submit-Contact" method="post">
+            <label for="Email">Your Email</label><br>
+            <input type="email" id="Email" name="Email" required><br><br>
+
+            <label for="Message">Your message:</label><br>
+            <textarea id="Message" name="Message" rows="5" cols="5" required></textarea><br><br>
+
+            <input type="Submit" value="Send">
+        </form>
+    </section>
 
 
     
